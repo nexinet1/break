@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
   <title>Open Website</title>
-  <meta http-equiv="refresh" content="0;url=http://bing.com">
+  <title>My Web Browser</title>
 </head>
-<body>
-  <p>Redirecting to example.com...</p>
-</body>
+  <body>
+    <form id="form">
+      <label for="url-input">Enter URL:</label>
+      <input type="text" id="url-input" name="url" />
+      <button type="submit">Go</button>
+    </form>
+
+    <div id="browser-content"></div>
+
+    <script src="browser.js"></script>
+  </body>
 </html>
